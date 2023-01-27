@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página inicial</title>
+
+    <link rel="stylesheet" href="./global.css">
+</head>
+<body>
+    <h1 id="inicio">Primeiros Passos com HTML</h1>
+    <hr />
+    <h2 id="#indice">Índice</h2>
+    <ul>
+        <li><a href="#html">HTML: HyperText Markup Language</a></li>
+        <li><a href="#estruturahtml">Estrutura Básica do HTML</a></li>
+        <li><a href="#inspetor">Funcionamento de uma Ferramenta de Inspeção de Elementos</a></li>
+        <li><a href="#tags">Funcionamento das Tags</a></li>
+        <li><a href="#atributostags">Atributos das Tags</a></li>
+        <li><a href="#textos">Textos </a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Como Funciona os Links</a></li>
+        <li><a href="#referencias">Refêrencias</a></li>
+    </ul>
+    <h2 id="html">HTML: HyperText Markup Language</h2>
+    <p><strong><i>HTML (Linguagem de Marcação de HiperTexto)</i></strong> é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a <mark>aparência/apresentação (CSS)</mark> ou a <mark>funcionalidade/comportamento (JavaScript)</mark> de uma página da web.</p>
+    <p>"HTML (HyperText Markup Language) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML são frequentemente usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.</p>
+
+    <h2 id="estruturahtml">Estrutura básica do HTML</h2>
+    <p>O HTML funciona fundamentalmente através de uma estrutura básica com dois elementos: a <code>head</code> e o <code>body</code>.  Ou: o cabeçalho e o corpo.</p>
+    <h3>Cabeçalho</h3>
+    <p>Cabeçalho de um arquivo HTML, ou head, é literalmente a cabeça de uma página. É nela que estarão contidas as informações e instruções que serão aplicadas à toda a página, como metadados, por exemplo. Também ficam no cabeçalho o título da página, links para scripts, arquivos .css (ou folhas de estilo), favicons e entre outros.</p>
+    <h3>Corpo</h3>
+    <p>O corpo, ou body, é o restante da página, ou as informações específicas de cada bloco de HTML. É nesta segunda parte do arquivo HTML que são utilizadas todas as tags descritas acima. De fato, as marcações dos hipertextos.</p>
+    <blockquote>“Você pode criar qualquer coisa: basta escrever” – C. S. Lewis</blockquote>
+
+    <h2 id="inspetor">Funcionamento de uma Ferramenta de Inspeção de Elementos</h2>
+    <p>Element Inspect Tool é uma ferramenta que permite visualizar o código-fonte de qualquer página da web. Além disso, você pode usá-lo para fazer alterações temporárias e visualizar os resultados em tempo real, deixando intacto o código-fonte original.</p>
+    <p>Isso é extremamente útil se você precisar testar uma alteração ou diagnosticar um problema. Também pode ser muito útil se você encontrar um site com um recurso de que goste e esteja curioso sobre como ele foi implementado.</p>
+    <p>A maioria dos principais navegadores, incluindo Edge, Chrome, Firefox e Safari, oferecem variações dessa ferramenta.</p>
+    
+    <h2 id="tags">Funcionamento das Tags</h2>
+    <p>O HTML usa "Marcação" para anotar texto, imagem e outros conteúdos para exibição em um navegador da Web. A marcação HTML inclui "elementos" especiais, como < head >, < title >, < body >, < header >, < section >, < p >, < div >, < img >, < ul >, < ol >, < li > e muitos outros.</p>
+    
+    <h2 id="atributostags">Atributos das Tags</h2>
+    <p>Um elemento HTML é separado de outro texto em um documento por "tags", que consistem no nome do elemento entre "<" e ">". O nome de um elemento dentro de uma tag é insensível a maiúsculas e minúsculas. Isto é, pode ser escrito em maiúsculas, minúsculas ou um mistura. Por exemplo, a tag < title > pode ser escrita como < Title >, < TITLE > ou de qualquer outra forma.</p>
+    
+    <h2 id="textos">Textos</h2>
+    <p>Na hora de hierarquizar um texto simples, algumas tags são básicas, mas muito importantes.</p>
+    <p>A tag parágrafo, ou < p >, é uma delas. É ela que é utilizada toda vez que um parágrafo é iniciado, separando, assim, este bloco de texto dos outros blocos de textos que compõem o conteúdo completo.</p>
+    <p>Se a ideia for incluir algum item que só estará presente em um parágrafo específico, por exemplo, a tag deste item deve ser incluída dentro da tag < p >.</p>
+    
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2>
+    <h3>Lista ordenada</h3>
+    <p>Para que um navegador possa interpretar uma sequência de palavras como uma lista, também é necessário taguear em HTML, podemos trabalhar com listas ordenadas e não-ordenadas, sendo estas primeiras listas numeradas e, as segundas, listas com marcadores simples (bullet points e traços). Para fazer uma lista ordenada, ou seja, com cada um dos itens correspondendo a um número, são usadas as tags < ol > e < li >.</p>
+    <h3>Lista não ordenada</h3>
+    <p>As listas não ordenadas seguem a mesma lógica de construção das listas ordenadas, com a única diferença que a tag que as abre é outra. Para abrir as listas não-ordenadas, utilizamos a tag < ul >.</p>
+    
+    <h2 id="links">Como Funciona os Links</h2>
+    <p>A âncora é a responsável pelos links de um texto poderem ser incluídos em uma palavra. Em outras palavras, é graças a ela que podemos inserir hiperlinks em nossos textos. Ela não é necessariamente uma tag, mas está inserida na tag de linkagem, chamada a. Para inseri-lo em uma tag de link, basta fechar o link com o sinal de > e escrever a âncora antes de fechar a tag com < /a >.</p>
+
+    <h2 id="referencias">Refêrencias</h2>
+    <li>Documentação Oficial HTML: <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">https://developer.mozilla.org/pt-BR/docs/Web/HTML</a></li>
+</body>
+</html>
